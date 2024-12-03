@@ -103,6 +103,7 @@ td {
 }
 
 .header-container h1 {
+  font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 100%;
@@ -138,16 +139,6 @@ td {
   color: #854632;
 }
 
-@media (min-width: 1444px) {
-  main {
-    width: 736px;
-  }
-
-  .image-container {
-    height: 300px;
-  }
-}
-
 @media (min-width: 768px) {
   body {
     display: flex;
@@ -164,7 +155,6 @@ td {
     padding: 40px;
     gap: 40px;
     width: 616px;
-    max-width: 616px;
     background: #ffffff;
     border-radius: 24px;
   }
@@ -177,5 +167,15 @@ td {
     height: 300px;
     border-radius: 12px;
     overflow: hidden;
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    width: 736px;
+  }
+
+  .image-container {
+    height: 300px;
   }
 }
