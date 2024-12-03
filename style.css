@@ -37,6 +37,7 @@ ol {
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
+  margin-left: 8px;
 }
 
 ul {
@@ -53,7 +54,7 @@ ul li {
 ul li::before {
   content: "•";
   color: #854632;
-  font-size: 16px;
+  font-size: 24px;
   position: absolute;
   left: 0;
   top: 50%;
