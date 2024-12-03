@@ -67,11 +67,13 @@ ol li::marker {
 
 table {
   border-collapse: collapse;
+  padding: 32px;
+  margin-top: -12px;
 }
 
 td {
   border-bottom: 1px solid #e3ddd7;
-  padding: 12px;
+  padding: 12px 32px;
 }
 
 .content-wrapper {
